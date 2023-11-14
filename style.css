@@ -14,7 +14,7 @@ body{
 
 .container{
     height: auto;
-    width: 70%;
+    width: 85%;
     padding: 3% 0;
     
 }
@@ -30,13 +30,14 @@ body{
 .cards-container{
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    justify-content: center;
+    gap: 20px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    margin: 5%;    
     border-radius: 7px;
 }
 .card:hover{
